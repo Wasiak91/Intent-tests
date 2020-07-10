@@ -1,0 +1,2 @@
+Dodanie tokenu:
+$env:PERCY_TOKEN='e46dcfab5f1660a2be5ab06614cc2a971a2bf48e80dc06b0543a0e4eeb77d714'
