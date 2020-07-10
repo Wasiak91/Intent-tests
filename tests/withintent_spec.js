@@ -32,8 +32,7 @@ describe('withintent', function() {
     await page.goto(url);
     await page.evaluate(() => localStorage.clear());
     frame = await page.frames().find(item => item._name === "mtm-frame-prompt");
-    const abc = await frame.$(".Button-hr1vw8-0.gwvPnG");
-    abc.click() 
+    const abc = await frame.click(".Button-hr1vw8-0.gwvPnG", {delay:500});
   }
 
   it('Loads the main page', async function() {     
